@@ -1,0 +1,40 @@
+{
+  "name": "qupey",
+  "version": "1.0.0",
+  "description": "qupey",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "author": "SA",
+  "license": "ISC",
+  "dependencies": {
+    "apn": "^2.1.5",
+    "async": "^2.4.0",
+    "aws-sdk": "^2.92.0",
+    "body-parser": "^1.15.2",
+    "connect-multiparty": "^2.0.0",
+    "cron": "^1.3.0",
+    "crypto": "0.0.3",
+    "dotenv": "^2.0.0",
+    "express": "^4.8.2",
+    "fcm-node": "^1.2.1",
+    "fibers": "^1.0.13",
+    "gm": "^1.23.0",
+    "https": "^1.0.0",
+    "image-size": "^0.6.1",
+    "jm-ez-l10n": "^1.0.0",
+    "js-md5": "^0.4.1",
+    "jwt-simple": "^0.3.0",
+    "lodash": "^4.14.2",
+    "mongoose": "^4.9.10",
+    "path": "^0.12.7",
+    "q": "^1.4.1",
+    "resize-img": "^1.1.2",
+    "stripe": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
